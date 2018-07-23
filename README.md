@@ -4,6 +4,7 @@ learn codelite plugin
 
 ## codlite-10.0-plugins/File2Aarry
 The plugin convert file binary data(or fragment) to a C array that displaying codelite editor, like this :
+<img align="right" src="https://github.com/timedog/codelite-plugins/blob/master/codelite-10.0-plugin/File2Array/file2array.png" width="400" height="300">
 ```c
 // data from AUTHORS, offset 0x0
 // array size : 85 Byte
@@ -17,5 +18,6 @@ unsigned char data[] = {
 
 };
 ```
+
 #### bug
 * You can set file `Offset`, but `Size` is invalid, I don't kown why...
